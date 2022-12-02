@@ -15,4 +15,5 @@ file_data.each do |line|
     end
 end
 
-puts sums.max
+puts "Elf carrying the most calories is carrying: #{sums.max}"
+puts "Sum of top 3 Elves' calories: #{sums.sort[-3..-1].sum}"
